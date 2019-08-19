@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js" integrity="sha256-aL06cXkAHBsVHteJnhSJy9aF3aR4BxwD38ityFHhb4k=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="image"></div>
+        <!-- Reading
+            https://github.com/sirxemic/jquery.ripples
+        -->
+        <script>
+        $(".image").ripples({ 
+            dropRadius:20,
+            resolotion:256,
+            perturbance:0.02,
+        });
+        </script>
+    </body>
+</html>
