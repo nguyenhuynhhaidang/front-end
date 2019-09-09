@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.left-panel{
+    text-align: right;
+    position: relative;
+}
+
+.left-panel .links{
+    padding: 1rem;
+}
+.left-panel .links .link{
+    padding: .5rem;
+}
+.left-panel .author-desc{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.left-panel .author{
+    display: block;
+}
+.left-panel .author a{
+    
+    text-decoration: none;
+    color: black;
+
+}
+.right-panel{
+    position: relative;
+}
+.right-panel h1{
+    text-transform: uppercase;
+}
+.right-panel h1:after {
+	content: "";
+	display: block;
+	border-bottom: 2px solid #000;
+	width: 10rem;
+}
+.project h2{
+    font-size: 1.5rem;
+}
+.project .project-date {
+	font-weight: 400;
+	font-size: .75rem;
+	margin-bottom: 1rem;
+}
+.project img:hover{
+    transform: scale(7);
+}
+.footer{
+    margin: 2rem;
+    text-align: right;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px){
+    .left-panel .author{
+        display: block;
+    }
+}
+
